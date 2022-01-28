@@ -1,6 +1,7 @@
 * {
   margin:0;
   padding:0;
+  box-sizing: border-box;
   
 }
 
@@ -30,6 +31,21 @@ border-radius: 10px;
 margin: auto;
 }
 
+input:hover {
+border: solid 2px black;
+}
+input[type="submit"] {
+  font-size: 1em;
+}
+input[type="submit"]:hover {
+  
+ 
+  background-color: #404040;
+  
+
+  color: white;
+}
+
 .div-name, .div-surname, .div-email, .div-password {
   margin: 0px 20px 10px;  
 }
@@ -44,7 +60,7 @@ margin: auto;
 .group_div, .group2 {
   display: flex;
   justify-content: space-between;
-  margin: 0px 10px 10px 20px;  
+  margin: 0px 20px 10px 20px;  
 
 
 }
@@ -77,7 +93,7 @@ margin: auto;
   
 }
 
-#btn-send, #btn-delete{
+#cadastro, #deletar{
   width: 50%;
   padding:10px 0px 10px 5px;
   margin: 2.5px 2.5px;
